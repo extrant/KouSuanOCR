@@ -17,20 +17,17 @@ OCR识别适用于刷题刷分，MITM适用于比赛。需要注意的是：**�
 KouSuanMITM的部署难度比KouSuanOCR低许多，我们这里只讲MITM如何配置，请确保你能够执行基本的pip install操作 以及能够自行增加镜像源。
 
 KouSuanMITM的需要的库：
-> mitmproxy
-
-> numpy
-
-> opencv-python
-
-> Pillow
+> mitmproxy<br>
+> numpy<br>
+> opencv-python<br>
+> Pillow<br>
 
 
-使用前请确保你已经连接上了ADB设备。如果是虚拟机则将代理设置为手动并且IP地址为你的PC地址，端口为8080。这里以MUMU模拟器为例。
+使用前请确保你已经连接上了ADB设备。如果是虚拟机则将代理设置为手动并且IP地址为你的PC地址，端口为8080。这里以MUMU模拟器为例。<br>
 
-如何获取MUMU模拟器的ADB端口:<https://mumu.163.com/help/20230214/35047_1073151.html>
+如何获取MUMU模拟器的ADB端口:<https://mumu.163.com/help/20230214/35047_1073151.html><br>
 
-pip换源教程:<https://zhuanlan.zhihu.com/p/345161094>
+pip换源教程:<https://zhuanlan.zhihu.com/p/345161094><br>
 
 <img src="https://github.com/extrant/IMGSave/blob/main/mitm%E6%95%99%E7%A8%8B.png?raw=true">
 
