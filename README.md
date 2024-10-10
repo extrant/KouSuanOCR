@@ -5,13 +5,10 @@ OCR识别适用于刷题刷分，MITM适用于比赛。需要注意的是：**�
 `本脚本不会教你安装什么库，自己去百度找相关资料进行安装。`
 
 
-> template_image = cv2.imread('QQ20241008-195310.png', 0) 
-
->template_image2 = cv2.imread('QQ20241008-201026.png', 0) 
-
->template_image3 = cv2.imread('continue.png', 0) 
-
->template_image4 = cv2.imread('continuepk.png', 0) 
+>template_image = cv2.imread('QQ20241008-195310.png', 0) <br>
+>template_image2 = cv2.imread('QQ20241008-201026.png', 0) <br>
+>template_image3 = cv2.imread('continue.png', 0) <br>
+>template_image4 = cv2.imread('continuepk.png', 0) <br>
 
 
 这两个图片是用来进行自动点击识别元素的，以及脚本默认适配横屏1920x1080分辨率模拟器，并且你需要提前手动连接上你的虚拟机adb远程端口。
