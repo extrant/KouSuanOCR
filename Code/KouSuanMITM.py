@@ -31,8 +31,8 @@ def perform_actions(questions):
         # 根据答案执行相应的滑动操作
         if answer == ">":
             print(f"题目 {idx + 1}: 执行 '>' 滑动操作")
-            os.system("adb shell input swipe 600 900 1000 800 0")
             os.system("adb shell input swipe 600 800 1000 900 0")
+            os.system("adb shell input swipe 1000 900 600 1000 0")
         elif answer == "<":
             print(f"题目 {idx + 1}: 执行 '<' 滑动操作")
             os.system("adb shell input swipe 1000 800 600 900 0")
