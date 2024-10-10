@@ -4,7 +4,7 @@
 `本脚本不会教你安装什么库，自己去百度找相关资料进行安装。`
 
 `
-template_image = cv2.imread('QQ20241008-195310.png', 0)  
+template_image = cv2.imread('QQ20241008-195310.png', 0)  /n
 template_image2 = cv2.imread('QQ20241008-201026.png', 0)  
 `
 
