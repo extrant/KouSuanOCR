@@ -89,8 +89,8 @@ def process_image_and_control():
             if left_num is not None and right_num is not None:
                 if left_num > right_num:
                     result = ">"
-                    os.system("adb shell input swipe 600 900 1000 800 0")
                     os.system("adb shell input swipe 600 800 1000 900 0")
+                    os.system("adb shell input swipe 1000 900 600 1000 0")
                 elif left_num < right_num:
                     result = "<"
                     os.system("adb shell input swipe 1000 800 600 900 0")
