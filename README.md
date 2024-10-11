@@ -4,9 +4,9 @@
 
 适用于1920x1080安卓模拟器的小猿口算自动刷分&自动比赛脚本
 
-OCR识别适用于刷题刷分，MITM适用于比赛。需要注意的是：**当你的速度超过其他与你同样使用脚本的人时，或者连赢和平局时，系统会安排机器人给你。具体为：id没变，名字一样，每次显示对面的胜利数量都是随机的，对面速度也是随机的。**
+OCR识别适用于刷题刷分，~MITM适用于比赛~。需要注意的是：**当你的速度超过其他与你同样使用脚本的人时，或者连赢和平局时，系统会安排机器人给你。具体为：id没变，名字一样，每次显示对面的胜利数量都是随机的，对面速度也是随机的。**
 
-**增加KouSuanMITMCheat，具体查看脚本内注释。**
+**~增加KouSuanMITMCheat，具体查看脚本内注释。~**
 
 推荐的库&思路：<br>
 <https://github.com/wyp010428/xiaoyuankousuan><br>
@@ -23,9 +23,9 @@ OCR识别适用于刷题刷分，MITM适用于比赛。需要注意的是：**�
 这两个图片是用来进行自动点击识别元素的，以及脚本默认适配横屏1920x1080分辨率模拟器，并且你需要提前手动连接上你的虚拟机adb远程端口。
 
 
-KouSuanMITM&KouSuanMITMCheat的部署难度比KouSuanOCR低许多，我们这里只讲MITM如何配置，请确保你能够执行基本的pip install操作 以及能够自行增加镜像源。
+~KouSuanMITM&KouSuanMITMCheat~的部署难度比KouSuanOCR低许多，我们这里只讲MITM如何配置，请确保你能够执行基本的pip install操作 以及能够自行增加镜像源。
 
-KouSuanMITM的需要的库：
+~KouSuanMITM~的需要的库：
 > mitmproxy<br>
 > numpy<br>
 > opencv-python<br>
