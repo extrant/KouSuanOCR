@@ -8,6 +8,9 @@ OCR识别适用于刷题刷分，MITM适用于比赛。需要注意的是：**�
 
 **增加KouSuanMITMCheat，具体查看脚本内注释。**
 
+推荐的库&思路：<br>
+<https://github.com/wyp010428/xiaoyuankousuan><br>
+<https://github.com/cr4n5/XiaoYuanKouSuan><br>
 `本脚本不会教你安装什么库，自己去百度找相关资料进行安装。`
 
 
