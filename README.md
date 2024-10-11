@@ -1,4 +1,4 @@
-# KouSuanOCR
+# KouSuanOCR 网络包加密了，研究解密并不是长久之计。MITM不再维护。
 
 **udp tcp ws没看到对面进度的包，很奇怪啊，就是一个本地生成的假的PK。**
 
